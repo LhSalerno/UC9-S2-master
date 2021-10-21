@@ -1,0 +1,155 @@
+/*Raiz*/
+*{
+    border: solid;
+    background: right;
+    width: 1200px;
+    font-family: sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+ }
+/*Botão rede sosial*/
+
+
+.share-btn {
+  display: inline-block;
+  color: #ffffff;
+  border: none;
+  padding: 0.5em;
+  width: 4em;
+  box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+  outline: none;
+  text-align: center;
+}
+
+.share-btn:hover {
+  color: #eeeeee;
+}
+
+.share-btn:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+  color: #e2e2e2;
+  outline: none;
+}
+
+.facebook    { background-color: #ffffff; }
+.intagran    { background-color: #ffffff; }
+.WhatsApp    { background-color: #ffffff; }
+.email       { background-color: #ffffff; }
+
+/*Botão pesquisa*/
+ #divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:50px;
+  width:1100px;
+  height:40px;
+  float: center;
+  align-items: center;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#5F9EA0;
+}
+
+#divBusca img{
+  float:left;
+}
+ /*Banner com a logo*/
+
+ header .banner{
+   /*flex-direction:row;*/
+   border: solid;
+   /*border-color: maroon;*/
+ }
+
+ /*Menu de navegação*/
+
+ header nav a{
+   border: solid;
+   border-color: mediumblue;
+   align-items: center;
+   font-size: 20px;
+   font-family: sans-serif;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   margin-right: 3px;
+   letter-spacing: 7px;  
+   background:rgba(0, 0, 0, 0);
+ }
+
+ header nav a:hover{
+   color: rgb(255, 255, 255);
+   background: rgb(250, 0, 0);    
+ }
+ /*Não mexer para cima esta correto*/
+
+ /*Destaque*/
+ .destaque img{
+  width: 10%;
+ }
+ 
+ .destaque{
+     border: solid;
+     /*border-color: red;*/
+     font-size: 16px;
+     display: flex;
+
+ /*Verificar como colocar o nome abaixo da imagen*/
+ }
+
+ .caixa{
+   display: block;
+
+ }
+
+ /*Box colecinador*/
+
+ .box{
+    font-size: 16px;
+    display:flex;
+    flex-direction:row;
+    border: solid;
+    /*border-color: yellow;*/
+    /*inserir carrosel*/
+ }
+/*Não mexer a cima, olhar obs*/
+
+
+
+
+ /*Galeria de Produtos*/
+ 
+ .container-fluid {
+    /*border-color: rgb(241, 0, 121);*/
+    border: solid;
+    justify-content: center; 
+}
+.produtos{
+  /*border-color: rgb(241, 0, 121);*/
+    border: solid;
+    justify-content: center; 
+}
+.row{
+  border-color: rgb(241, 0, 121);
+    border: solid;
+    justify-content: center; 
+}
